@@ -1,5 +1,6 @@
 import { Component, Inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { GridData } from '../components/data-grid/data-grid.model';
 
 @Component({
   selector: 'app-home',
@@ -12,6 +13,10 @@ export class HomeComponent {
     http.get<Array<Student>>(baseUrl + "Students").subscribe(result => {
       this.stus = result;
     });
+  }
+
+  get data() {
+    return <GridData>this.stus;
   }
 }
 

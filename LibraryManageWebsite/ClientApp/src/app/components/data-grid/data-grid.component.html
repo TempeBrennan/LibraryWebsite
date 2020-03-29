@@ -1,0 +1,12 @@
+<table *ngIf="data">
+  <thead>
+    <tr>
+      <th *ngFor="let c of data.columnInfos">{{getColumnDisplayName(c)}}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let d of data.dataList">
+      <td *ngFor="let c of data.columnInfos;let i = index">{{d[getColumnName(i)]}}</td>
+    </tr>
+  </tbody>
+</table>
