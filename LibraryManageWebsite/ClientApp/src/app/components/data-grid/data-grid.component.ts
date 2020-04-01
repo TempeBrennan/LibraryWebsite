@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { GridData, ColumnConfig } from './data-grid.model';
 
 @Component({
@@ -18,6 +18,13 @@ export class DataGridComponent {
     this._data = d;
     this.updateDefaultColumn();
   }
+
+  @Output()
+  add: EventEmitter<Array<object>> = new EventEmitter();
+  @Output()
+  delete: EventEmitter<number> = new EventEmitter();
+  @Output()
+  edit: EventEmitter<number> = new EventEmitter();
 
   /** dataGrid ctor */
   constructor() {
@@ -45,5 +52,19 @@ export class DataGridComponent {
 
   getColumnName(index: number) {
     return this.data.columnInfos[index].name;
+  }
+
+  private onEdit(index: number) {
+    this.edit.emit(index);
+    this._data = this._data;
+  }
+
+  private onDelete(index: number) {
+    this.delete.emit(index);
+    this._data = this._data;
+  }
+
+  private onAdd() {
+    this.add.emit();
   }
 }

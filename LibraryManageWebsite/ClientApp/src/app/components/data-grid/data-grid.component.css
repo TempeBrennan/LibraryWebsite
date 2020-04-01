@@ -1,6 +1,5 @@
 table {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  width: 100%;
   border-collapse: collapse;
 }
 
@@ -22,4 +21,14 @@ table {
   table tr td {
     color: #000000;
     background-color: #EAF2D3;
+    white-space:nowrap;
+  }
+
+  a:focus, a:hover {
+    border-bottom: 1px solid;
+    cursor: pointer;
+  }
+
+  a:active {
+    color: red;
   }
