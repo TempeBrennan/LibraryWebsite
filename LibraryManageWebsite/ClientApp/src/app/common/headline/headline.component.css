@@ -1,0 +1,12 @@
+.sperate-line {
+    background-color: rgb(202, 172, 155);
+    height: 1px;
+    flex-grow: 1;
+}
+.sperate-line-label {
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    white-space: pre;
+    font-weight: bold;
+    padding: 10px;
+}

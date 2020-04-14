@@ -1,1 +1,8 @@
-<p>book-list works!</p>
+<div class="header">
+    <app-headline [text]="'图书信息录入'"></app-headline>
+</div>
+
+<div class="content">
+    <button class="btn">新添图书</button>
+    <app-listbox [data]="books" (edit)="edit($event)" (delete)="delete($event)"></app-listbox>
+</div>

@@ -9,9 +9,9 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
-import { DataGridComponent } from './components/data-grid/data-grid.component';
 import { BookListComponent } from './book/book-list/book-list.component';
 import { ListboxComponent } from './common/listbox/listbox.component';
+import { HeadlineComponent } from './common/headline/headline.component';
 
 @NgModule({
   declarations: [
@@ -20,9 +20,9 @@ import { ListboxComponent } from './common/listbox/listbox.component';
     HomeComponent,
     CounterComponent,
     FetchDataComponent,
-    DataGridComponent,
     BookListComponent,
-    ListboxComponent
+    ListboxComponent,
+    HeadlineComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
