@@ -9,4 +9,5 @@ export interface BookInfo {
     count: number;
     loanCount: number;
     totalLoanCount: number;
+    intro?: string;
 }

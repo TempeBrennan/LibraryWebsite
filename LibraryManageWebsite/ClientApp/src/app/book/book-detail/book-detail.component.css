@@ -1,0 +1,66 @@
+
+.detail-content {
+    padding-top: 50px;
+}
+
+.field-content-left {
+    float: left;
+    margin-top: -48px;
+}
+
+.label-title {
+    font-size: 18.667px;
+    color: rgb(89, 89, 89);
+}
+
+.field-content-right {
+    margin-left: 250px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.detail-field {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.description {
+    display: inline-block;
+    width: 100px;
+}
+
+.field-part2
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-img {
+    background-image: url('/../assets/img2.png');
+    height: 280px;
+    width: 200px;
+}
+
+.brief-introduce {
+    width: 450px;
+    height: 300px;
+}
+
+.book-duplicate {
+    background-image: url('/../assets/img3.png');
+    width: 450px;
+    height: 300px;
+}
+
+.submit-part {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn {
+    margin-right: 30px;
+}

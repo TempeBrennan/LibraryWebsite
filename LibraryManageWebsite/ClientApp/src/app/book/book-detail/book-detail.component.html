@@ -1,0 +1,82 @@
+<div class="header">
+    <app-headline [text]="'图书详情'"></app-headline>
+</div>
+
+<div class="content detail-content">
+
+    <div class="field-part1">
+        <div class="field-content-left">
+            <p class="label-title">封面图</p>
+            <img class="book-img">
+        </div>
+
+        <div class="field-content-right">
+            <div class="detail-field">
+                <div class="description">ISBN:</div>
+                <input class="textbox">
+            </div>
+            <div class="detail-field">
+                <div class="description">页数:</div>
+                <input class="textbox">
+            </div>
+            <div class="detail-field">
+                <div class="description">书名:</div>
+                <input class="textbox">
+            </div>
+            <div class="detail-field">
+                <div class="description">出版年:</div>
+                <input class="textbox">
+            </div>
+            <div class="detail-field">
+                <div class="description">作者:</div>
+                <input class="textbox">
+            </div>
+            <div class="detail-field">
+                <div class="description">出版社:</div>
+                <input class="textbox">
+            </div>
+            <div class="detail-field">
+                <div class="description">图书分类:</div>
+                <input class="textbox">
+            </div>
+            <div class="detail-field">
+                <div class="description">译者:</div>
+                <input class="textbox">
+            </div>
+            <div class="detail-field">
+                <div class="description">租金级别:</div>
+                <input class="textbox">
+            </div>
+            <div class="detail-field">
+                <div class="description">版次:</div>
+                <input class="textbox">
+            </div>
+            <div class="detail-field">
+                <div class="description">定价(元):</div>
+                <input class="textbox">
+            </div>
+        </div>
+        <div>
+
+        </div>
+
+    </div>
+
+    <div class="field-part2">
+        <div>
+            <p class="label-title">简介:</p>
+            <textarea class="multiline-textbox brief-introduce">
+            {{book.intro}}
+            </textarea>
+        </div>
+        <div>
+            <p class="label-title">图书复本:</p>
+            <img class="book-duplicate">
+        </div>
+    </div>
+
+    <div class="submit-part">
+        <button class="btn submit-btn">添加</button>
+        <button class="btn submit-btn">取消</button>
+    </div>
+</div>
