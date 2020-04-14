@@ -1,0 +1,8 @@
+.textbox {
+    color: #394047;
+    background: #FFFFFF border-box;
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid #bfbfbf;
+    width: 200px;
+    height: 30px;
+}

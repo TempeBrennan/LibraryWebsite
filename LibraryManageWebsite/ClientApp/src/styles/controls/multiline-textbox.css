@@ -1,0 +1,12 @@
+.multiline-textbox {
+    font-size: 14.67px;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: pre-wrap;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: left;
+    resize: none;
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid #bfbfbf;
+}

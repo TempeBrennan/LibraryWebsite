@@ -1,9 +1,10 @@
-button:hover {
-    opacity: 0.8;
-    font-weight: normal;
-}
+@import "./styles/layout.css";
+@import "./styles/controls/button.css";
+@import "./styles/controls/table.css";
+@import "./styles/controls/textbox.css";
+@import "./styles/controls/multiline-textbox.css";
 
-button:disabled {
-    opacity: 0.5;
-    cursor: auto;
+
+* {
+    font-family: 微软雅黑;
 }
