@@ -1,0 +1,18 @@
+<ng-container *ngIf="data">
+    <table>
+        <thead>
+            <tr>
+                <th *ngFor="let c of data.columnInfos">{{getColumnDisplayName(c)}}</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let d of data.dataList;let i = index">
+                <td *ngFor="let c of data.columnInfos;let j = index">{{d[getColumnName(j)]}}</td>
+                <td><a (click)="onEdit(i)">edit</a></td>
+                <td><a (click)="onDelete(i)">delete</a></td>
+            </tr>
+        </tbody>
+    </table>
+</ng-container>

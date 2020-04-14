@@ -1,4 +1,4 @@
-import { BookInfo } from "./book";
+import { BookInfo } from "./book.model";
 
 var bookInfos: Array<BookInfo> = [
     { ISBN: 9787020002207, name: "红楼梦", author: "[清] 曹雪芹 / 高鹗", publisher: "人民文学出版社", publishYear: 2017, version: 1, priority: "普通", count: 4, loanCount: 1, totalLoanCount: 16 },

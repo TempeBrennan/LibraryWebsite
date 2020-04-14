@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { DataGridComponent } from './components/data-grid/data-grid.component';
+import { BookListComponent } from './book/book-list/book-list.component';
+import { ListboxComponent } from './common/listbox/listbox.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { DataGridComponent } from './components/data-grid/data-grid.component';
     HomeComponent,
     CounterComponent,
     FetchDataComponent,
-    DataGridComponent
+    DataGridComponent,
+    BookListComponent,
+    ListboxComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

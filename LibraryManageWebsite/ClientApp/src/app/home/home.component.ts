@@ -1,8 +1,8 @@
 import { Component, Inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { GridData } from '../components/data-grid/data-grid.model';
-import { BookInfo } from '../data/bookInfo/book';
-import { bookInfos } from '../data/bookInfo/mockBookInfos';
+import { BookInfo } from '../book/book.model';
+import { bookInfos } from '../book/book.mock';
 
 @Component({
   selector: 'app-home',
