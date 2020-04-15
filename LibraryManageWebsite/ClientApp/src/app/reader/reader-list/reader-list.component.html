@@ -1,0 +1,8 @@
+<div class="header">
+    <app-headline [text]="'读者信息'"></app-headline>
+</div>
+
+<div class="content">
+    <button class="btn">新增</button>
+    <app-listbox [data]="readers" (edit)="edit($event)" (delete)="delete($event)"></app-listbox>
+</div>

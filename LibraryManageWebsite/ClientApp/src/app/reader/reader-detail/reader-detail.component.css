@@ -1,0 +1,48 @@
+
+.detail-content {
+    padding-top: 50px;
+}
+
+.field-content-left {
+    float: left;
+    margin-top: -48px;
+}
+
+.field-content-right {
+    margin-left: 250px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.book-img {
+    background-image: url('/../assets/img2.png');
+    height: 280px;
+    width: 200px;
+}
+
+.address {
+    width: 700px;
+}
+
+.remark-field {
+    align-items: flex-start;
+    display: flex;
+    margin-top: 10px;
+}
+
+.remark {
+    width: 700px;
+    height: 100px;
+}
+
+.submit-part {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn {
+    margin-right: 50px;
+}
