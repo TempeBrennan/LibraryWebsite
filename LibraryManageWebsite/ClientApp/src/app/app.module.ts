@@ -11,6 +11,7 @@ import { HeadlineComponent } from './common/headline/headline.component';
 import { BookDetailComponent } from './book/book-detail/book-detail.component';
 import { ReaderListComponent } from './reader/reader-list/reader-list.component';
 import { ReaderDetailComponent } from './reader/reader-detail/reader-detail.component';
+import { PopupComponent } from './common/popup/popup.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ReaderDetailComponent } from './reader/reader-detail/reader-detail.comp
     HeadlineComponent,
     BookDetailComponent,
     ReaderListComponent,
-    ReaderDetailComponent
+    ReaderDetailComponent,
+    PopupComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

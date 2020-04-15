@@ -1,0 +1,13 @@
+<div class="popup-container" #container>
+    <div class="popup-content-container" #drag (mousedown)="mouseDownHandler($event)">
+        <div class="popup-header">
+            <p class="popup-header-text">出版社编辑</p>
+            <div class="popup-header-close">
+                <span class="popup-header-button-text">×</span>
+            </div>
+        </div>
+        <div class="popup-content">
+            <ng-content></ng-content>
+        </div>
+    </div>
+</div>
