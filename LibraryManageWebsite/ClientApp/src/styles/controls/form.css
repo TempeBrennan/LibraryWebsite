@@ -1,0 +1,9 @@
+.form-field {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.form-field-description {
+    display: inline-block;
+    width: 100px;
+}

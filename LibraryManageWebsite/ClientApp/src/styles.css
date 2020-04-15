@@ -3,6 +3,8 @@
 @import "./styles/controls/table.css";
 @import "./styles/controls/textbox.css";
 @import "./styles/controls/multiline-textbox.css";
+@import "./styles/controls/form.css";
+@import "./styles/controls/label.css";
 
 
 * {
