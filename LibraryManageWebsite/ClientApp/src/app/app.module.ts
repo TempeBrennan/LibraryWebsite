@@ -12,6 +12,8 @@ import { BookDetailComponent } from './book/book-detail/book-detail.component';
 import { ReaderListComponent } from './reader/reader-list/reader-list.component';
 import { ReaderDetailComponent } from './reader/reader-detail/reader-detail.component';
 import { PopupComponent } from './common/popup/popup.component';
+import { PublishListComponent } from './publish/publish-list/publish-list.component';
+import { PublishDetailComponent } from './publish/publish-detail/publish-detail.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { PopupComponent } from './common/popup/popup.component';
     BookDetailComponent,
     ReaderListComponent,
     ReaderDetailComponent,
-    PopupComponent
+    PopupComponent,
+    PublishListComponent,
+    PublishDetailComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -34,6 +38,8 @@ import { PopupComponent } from './common/popup/popup.component';
       { path: 'book-detail', component: BookDetailComponent },
       { path: 'reader-list', component: ReaderListComponent },
       { path: 'reader-detail', component: ReaderDetailComponent },
+      { path: 'publish-list', component: PublishListComponent },
+      { path: 'publish-detail', component: PublishDetailComponent },
     ])
   ],
   providers: [],

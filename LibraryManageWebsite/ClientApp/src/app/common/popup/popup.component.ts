@@ -1,4 +1,4 @@
-import { Component, OnInit, ElementRef, ViewChild, HostListener } from '@angular/core';
+import { Component, OnInit, ElementRef, ViewChild, HostListener, Input } from '@angular/core';
 import { BrowserSize } from './popup.model';
 
 @Component({
@@ -10,6 +10,7 @@ export class PopupComponent implements OnInit {
 
   @ViewChild('drag', { static: false }) drag: ElementRef;
   @ViewChild('container', { static: false }) container: ElementRef;
+  @Input() header:string;
 
   private _isMouseDown: boolean;
   private _clientX: number;

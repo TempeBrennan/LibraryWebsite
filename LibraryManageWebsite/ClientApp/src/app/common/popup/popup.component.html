@@ -1,7 +1,7 @@
-<div class="popup-container" #container>
-    <div class="popup-content-container" #drag (mousedown)="mouseDownHandler($event)">
-        <div class="popup-header">
-            <p class="popup-header-text">出版社编辑</p>
+<div class="popup-container" >
+    <div  #container class="popup-content-container" (mousedown)="mouseDownHandler($event)">
+        <div #drag class="popup-header">
+            <p class="popup-header-text">{{header}}</p>
             <div class="popup-header-close">
                 <span class="popup-header-button-text">×</span>
             </div>
