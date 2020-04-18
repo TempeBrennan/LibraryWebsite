@@ -14,6 +14,7 @@ import { ReaderDetailComponent } from './reader/reader-detail/reader-detail.comp
 import { PopupComponent } from './common/popup/popup.component';
 import { PublishListComponent } from './publish/publish-list/publish-list.component';
 import { PublishDetailComponent } from './publish/publish-detail/publish-detail.component';
+import { ReadClassificationListComponent } from './reader-classification/read-classification-list/read-classification-list.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PublishDetailComponent } from './publish/publish-detail/publish-detail.
     ReaderDetailComponent,
     PopupComponent,
     PublishListComponent,
-    PublishDetailComponent
+    PublishDetailComponent,
+    ReadClassificationListComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
