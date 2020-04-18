@@ -1,0 +1,52 @@
+.field-part1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.field-content {
+    width: 680px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.detail-field {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.form-field.remark {
+    display: flex;
+    align-items: flex-start;
+}
+
+.form-field-description {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.brief-introduce {
+    width: 520px;
+    height: 128px;
+}
+
+.student-photo {
+    background-image: url('/../assets/img4.png');
+    width: 120px;
+    height: 145px;
+}
+
+.submit-part {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn {
+    margin-right: 30px;
+}

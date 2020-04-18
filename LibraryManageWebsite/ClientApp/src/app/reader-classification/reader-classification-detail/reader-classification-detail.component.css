@@ -1,0 +1,22 @@
+.form-field-description.classification {
+    width: 120px;
+    font-size: 16px;
+    color: rgb(127, 127, 127);
+    text-align: right;
+    margin-right: 15px;
+}
+
+.submit {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit-right-btn {
+    margin-right: 30px;
+}
+
+.classification.textbox {
+    width: 220px;
+    height: 38px;
+}
